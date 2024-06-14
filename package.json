@@ -8,7 +8,9 @@
     "start": "node dist/server.js",
     "build": "npm install && tsc",
     "build-dev": "npm install && tsc --sourcemap",
-    "test": "npm run build-dev && mocha --require ts-node/register test/**/*test.ts"
+    "test": "npm run build-dev && mocha --require ts-node/register test/**/*test.ts",
+    "prettier": "prettier {src,test}/**/*.ts",
+    "prettier:fix": "prettier --write {src,test}/**/*.ts"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +21,7 @@
     "@types/node": "^20.14.2",
     "@types/sinon": "^17.0.3",
     "mocha": "^10.4.0",
+    "prettier": "3.3.2",
     "sinon": "^18.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"

@@ -43,5 +43,7 @@
         -- you may need to update git.  if you do, open a PowerShell window and execute `git update-git-for-windows`
 ## clone this repo
     - URL to be determined
+## run the tests to verify it works
+    - execute `npm test`
 
 
