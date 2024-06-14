@@ -37,6 +37,10 @@
     - download the installer
     - follow the instructions
         -- have Dad there with you the whole time.  Some of this installer can be confusing!!
+    - open it
+        -- it will tell you if there is anything else to do.  fix all the problems
+        -- set the diff tool to vscode
+        -- you may need to update git.  if you do, open a PowerShell window and execute `git update-git-for-windows`
 ## clone this repo
     - URL to be determined
 
