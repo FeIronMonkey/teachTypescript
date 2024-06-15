@@ -4,6 +4,10 @@
   "editor.useTabStops": false,
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "explicit",
-  }
+    "source.fixAll": "explicit"
+  },
+  "files.eol": "\n",
+  "mochaExplorer.require": "ts-node/register",
+  "mochaExplorer.files": "test/**/*.test.ts",
+  "files.trimTrailingWhitespace": true
 }
