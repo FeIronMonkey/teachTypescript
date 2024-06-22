@@ -1,4 +1,4 @@
-import { add } from '../../../src/shared/utils/add';
+import { add } from '../../../src/public/shared/utils/add';
 import { expect } from 'chai';
 
 describe('add function', () => {
