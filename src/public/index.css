@@ -1,18 +1,1 @@
-body {
-  background-color: lightblue;
-  display: flex;
-  flex-direction: column;
-  font-family: 'Courier New', Courier, monospace;
-}
-
-.section {
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  font-size: large;
-  font-weight: 600;
-}
-
-.section > * {
-  width: fit-content;
-}
+@import './shared/styles/base.css';
